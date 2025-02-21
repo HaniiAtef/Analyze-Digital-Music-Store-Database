@@ -24,10 +24,18 @@ The project utilizes the **Chinook Database (chinook.db)**, which contains table
 
 ## Analysis and Key Questions
 The analysis addresses the following business questions:
-1. **Who are the top customers based on total purchase value?**
-2. **Which genre generates the highest revenue?**
-3. **Which artist has the most sales in the store?**
-4. **What are the monthly sales trends?**
+1. **Which genre has the most and least track sales?**
+   - Most sold: Rock (1297 sales)
+   - Least sold: Opera (1 sale)
+
+2. **What is the most popular genre in the USA?**
+   - Answer: Rock (157 purchases)
+
+3. **Which artist has produced the most tracks in the Rock genre?**
+   - Answer: Led Zeppelin (114 tracks)
+
+4. **Which customer has spent the most on music, and from which country?**
+   - Answer: Helena Holý (Czech Republic, $49.62)
 
 ## Tools Used
 - **SQLite** for querying the database
@@ -50,4 +58,6 @@ For any questions or suggestions, feel free to contribute or reach out!
 
 ## License
 This project is for educational purposes and is open for contributions and modifications.
+
+
 
